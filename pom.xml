@@ -18,4 +18,11 @@
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
+  <distributionManagement>
+	<snapshotrepository>
+		<id>deployment</id>
+		<name>Internal Snapshot Release</name>
+		<url>http://localhost:8081/repository/Sample/</url>
+	</snapshotrepository>
+  </distributionManagement>
 </project>
