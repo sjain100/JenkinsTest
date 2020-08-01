@@ -10,13 +10,36 @@
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <artifactId>junit-dep</artifactId>
+      <version>4.4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
     <finalName>JenkinsWar</finalName>
+    <sourceDirectory>C:\Sanjay\jenkins\Git\JenkinsTest\src/main/java\</sourceDirectory>
+    <testSourceDirectory>C:\Sanjay\jenkins\Git\JenkinsTest\src\test\java\</testSourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>junit-platform-surefire-provider</artifactId>
+                        <version>1.0.0-M3</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>	
   </build>
   <distributionManagement>
 	<repository>
