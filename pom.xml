@@ -17,14 +17,13 @@
   </dependencies>
   <build>
     <finalName>JenkinsWar</finalName>
-    <sourceDirectory>C:\Sanjay\jenkins\Git\JenkinsTest\src/main/java\</sourceDirectory>
-    <testSourceDirectory>C:\Sanjay\jenkins\Git\JenkinsTest\src\test\java\</testSourceDirectory>
   </build>
+  
   <distributionManagement>
 	<repository>
 		<id>deployment</id>
 		<name>Internal Snapshot Release</name>
-		<url>http://localhost:8081/repository/SAMPLE-REL/</url>
+		<url>http://localhost:8081/repository/SAMPLE-SNAP/</url>
 	</repository>
 	<snapshotRepository>
 		<id>deployment</id>
