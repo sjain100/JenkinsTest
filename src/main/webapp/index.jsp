@@ -2,12 +2,8 @@
 <body>
 <h2>Jenkins Successfully Deployed War file in Tomcat!<BR>
 Hello There<BR>
-New Build 123 <BR>
-hurray it is done
-
-New Changes<BR>
-Next Change is here134566<BR>
 8nd Aug 2020<BR>
+Piped<BR>
 
     <center>
     <H1>Enter your details </H1> <br>
