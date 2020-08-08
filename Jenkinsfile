@@ -9,20 +9,5 @@ pipeline {
             }
 		}
 
-        stage('Testing') {
-            steps {
-                withMaven(maven : 'Maven_Install' {
-					sh 'mvn test'
-                }
-            }
-		}
-
-        stage('Deploy') {
-            steps {
-                withMaven(maven : 'Maven_Install' {
-					sh 'mvn deploy'
-                }
-            }
-		}
 	}
 }
