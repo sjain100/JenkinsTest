@@ -7,7 +7,7 @@ hurray it is done
 
 New Changes<BR>
 Next Change is here134566<BR>
-2nd Aug 2020<BR>
+8nd Aug 2020<BR>
 
     <center>
     <H1>Enter your details </H1> <br>
