@@ -4,6 +4,12 @@
   <groupId>com.jenkins.demo</groupId>
   <artifactId>JenkinsTest</artifactId>
   <packaging>war</packaging>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
   <version>2.5-SNAPSHOT</version>
   <name>JenkinsWar Maven Webapp</name>
   <url>http://maven.apache.org</url>
