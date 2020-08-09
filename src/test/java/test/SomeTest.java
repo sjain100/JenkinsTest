@@ -8,8 +8,4 @@ public class SomeTest extends Base {
         run();
     }
 
-    @Test public void test2() {
-        run();
-    }
-
 }
